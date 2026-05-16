@@ -1,7 +1,7 @@
-public class Pembeli09 {
+public class Pembeli09 {        // Merepresentasikan data pelanggan yang mengantri
     String namaPembeli;
     String noHp;
-    int noAntrian;
+    int noAntrian;              // Nomor antrian otomatis
 
     public Pembeli09(int noAntrian, String namaPembeli, String noHp) {
         this.noAntrian = noAntrian;
