@@ -1,4 +1,4 @@
-public class Pesanan09 {
+public class Pesanan09 {        // merepresentasikan data pesanan makanan dan untuk menyimpan data pesanan yang dipesan oleh pembeli
     int kodePesanan;
     String namaPesanan;
     int harga;
