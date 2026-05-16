@@ -1,4 +1,4 @@
-public class NodePembeli09 {
+public class NodePembeli09 {        // struktur Double Linked List antrean pembeli
     Pembeli09 data;
     NodePembeli09 next;
     NodePembeli09 prev;
