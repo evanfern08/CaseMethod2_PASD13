@@ -76,7 +76,7 @@ public class LinkedListPesanan09 {
             current = current.next;
         }
 
-        System.out.println("=== STATISTIK PESANAN ===");       // 3. Nama pesanan
+        System.out.println("=== STATISTIK PESANAN ===");       // 3. Nama pesanan informasi
         System.out.println("Total Pendapatan : Rp" + totalPendapatan);
         System.out.println("Pesanan Termahal : " + maxPesanan.namaPesanan + " (Rp" + maxPesanan.harga + ")");
         System.out.println("Pesanan Termurah : " + minPesanan.namaPesanan + " (Rp" + minPesanan.harga + ")");
