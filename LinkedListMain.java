@@ -8,13 +8,12 @@ public class LinkedListMain {
         int pilihan;
 
         do {
-            System.out.println("\nSISTEM ANTRIAN ROYAL DELISH");        // Menu utama 
             System.out.println("1. Tambah Antrian");
             System.out.println("2. Cetak Antrian");
             System.out.println("3. Hapus Antrian dan Pesan");
             System.out.println("4. Laporan Pesanan");
+            System.out.println("5. Statistik Pesanan");
             System.out.println("0. Keluar");
-            System.out.print("Pilih menu : ");
             pilihan = sc.nextInt();
             sc.nextLine();
 
@@ -51,6 +50,10 @@ public class LinkedListMain {
                 case 4:
                     System.out.println("LAPORAN PESANAN (URUT NAMA PESANAN)");      // Cetak laporan pesanan (sudah diurutkan berdasarkan nama)
                     pesanan.cetakLaporan();
+                    break;
+
+                case 5:
+                    pesanan.statistikPesanan();
                     break;
                 case 0:
                     System.out.println("Program selesai.");
